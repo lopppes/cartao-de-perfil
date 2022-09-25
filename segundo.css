@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(89deg,#7436bf,#8d31a2);
+    color: black;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h1{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+    
+   
+
+}
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+select{
+    color: white;
+    padding: 3px 15px;
+    background-color: black ;
+    border: 1px solid #333;
+    font-size: 20px;
+ 
+}
+select:hover{
+    color: black;
+    background-color: white;
+}
+input{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px ;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    border: solid 0px ;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'VT323', monospace;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+   
+}
+.entrar{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 40px;
+    padding: 14px 100px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+   
+}
+.entrar:hover{
+    color: black;
+    background-color: white;
+}
+@media (max-width:650px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    input{
+        padding: 15px;
+    }
+    select{
+        padding: 3px 13px;
+    }
+    
+    .entrar{
+        padding: 10px 95px;
+    }
+
+
+}
+    
+
